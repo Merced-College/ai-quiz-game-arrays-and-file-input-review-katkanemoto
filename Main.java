@@ -19,10 +19,11 @@ public class Main {
         //each set of answers is stored in the dual dimensional answer array
 
 
-        
+
         String[] questions = new String[NUMBER_OF_QUESTIONS];
         String[][] answers = new String[NUMBER_OF_QUESTIONS][NUMBER_OF_CHOICES];
         int[] correctAnswers = new int[NUMBER_OF_QUESTIONS];
+        int points = 0;
 
         readQuizFile(questions, answers, correctAnswers);
 
