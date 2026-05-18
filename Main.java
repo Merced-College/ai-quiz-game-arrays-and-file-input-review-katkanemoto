@@ -1,3 +1,8 @@
+//Kanemoto
+//5/18/2026
+//Ai Quiz Game
+//changed: 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -8,6 +13,13 @@ public class Main {
     public static final int NUMBER_OF_CHOICES = 4;
 
     public static void main(String[] args) {
+
+        //these are the data structures for my data of my questions and answers.
+        //Each question is stored in the question array
+        //each set of answers is stored in the dual dimensional answer array
+
+
+        
         String[] questions = new String[NUMBER_OF_QUESTIONS];
         String[][] answers = new String[NUMBER_OF_QUESTIONS][NUMBER_OF_CHOICES];
         int[] correctAnswers = new int[NUMBER_OF_QUESTIONS];
